@@ -1,0 +1,10 @@
+{
+  "name": "chunk",
+  "short_name": "chunk",
+  "description": "把句式和词块练到脱口而出",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ECEEE8",
+  "theme_color": "#ECEEE8",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "chunk-apk",
+  "private": true,
+  "version": "1.0.0",
+  "description": "chunk 的安卓壳：加载你部署的 chunk 服务，地址用 configure.mjs 写入",
+  "scripts": {
+    "configure": "node configure.mjs",
+    "sync": "node configure.mjs && cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/cli": "^8.6.2",
+    "@capacitor/core": "^8.6.2"
+  }
+}

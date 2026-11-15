@@ -1,0 +1,104 @@
+{
+ "patterns": [
+  {"no": 1, "text": "I've been meaning to call my grandma, but I keep forgetting.", "zh": "我一直想给奶奶打个电话，可总是忘。",
+   "example": "I've been meaning to clean my room all week.", "example_zh": "我一整周都想收拾房间来着。", "first_batch": false},
+  {"no": 2, "text": "It took me a whole afternoon to put this desk together.", "zh": "装这张桌子花了我一整个下午。",
+   "example": "It took me three tries to pass my driving test.", "example_zh": "我考了三次才过驾照。", "first_batch": false},
+  {"no": 3, "text": "I'm not really into horror movies.", "zh": "我不太喜欢看恐怖片。",
+   "example": "I'm really into cooking these days.", "example_zh": "我最近特别喜欢做饭。", "first_batch": true},
+  {"no": 4, "text": "I can't stand waiting in long lines.", "zh": "我受不了排长队。",
+   "example": "I can't stand it when people talk during a movie.", "example_zh": "我受不了看电影时有人讲话。", "first_batch": false},
+  {"no": 5, "text": "I'm thinking about getting a part-time job.", "zh": "我在考虑找份兼职。",
+   "example": "I'm thinking about learning to swim this summer.", "example_zh": "我在考虑今年夏天学游泳。", "first_batch": true},
+  {"no": 6, "text": "The thing is, I don't have enough time.", "zh": "问题是，我时间不够。",
+   "example": "The thing is, my phone is almost dead.", "example_zh": "问题是，我手机快没电了。", "first_batch": false},
+  {"no": 7, "text": "I'd rather stay in tonight than go to a crowded bar.", "zh": "今晚我宁愿待在家，也不想去人挤人的酒吧。",
+   "example": "I'd rather walk than wait for the bus.", "example_zh": "我宁愿走路，也不想等公交。", "first_batch": false},
+  {"no": 8, "text": "It's been ages since I last saw a movie in a theater.", "zh": "我好久没去电影院看电影了。",
+   "example": "It's been ages since I played basketball.", "example_zh": "我好久没打篮球了。", "first_batch": true},
+  {"no": 9, "text": "I'm used to getting up early now.", "zh": "我现在已经习惯早起了。",
+   "example": "I'm used to living on my own.", "example_zh": "我已经习惯一个人住了。", "first_batch": true},
+  {"no": 10, "text": "I was about to leave when it started to pour.", "zh": "我正要走，突然下起了大雨。",
+   "example": "I was about to text you when you called.", "example_zh": "我正要给你发消息，你就打过来了。", "first_batch": false},
+  {"no": 11, "text": "No wonder you're so tired. You stayed up until three.", "zh": "难怪你这么累，你熬到了三点。",
+   "example": "No wonder it's so crowded. Everything is half price today.", "example_zh": "难怪人这么多，今天全场半价。", "first_batch": false},
+  {"no": 12, "text": "I wish I had more time to read.", "zh": "要是我有更多时间看书就好了。",
+   "example": "I wish I could cook like my mom.", "example_zh": "要是我做饭能像我妈那么好就好了。", "first_batch": true}
+ ],
+ "links": [
+  {"no": 1, "cat": "举例", "text": "For example, I walked to school every day last week.", "zh": "比如说，我上周每天都走路去学校。",
+   "example": "For example, I stopped drinking bubble tea for a month.", "example_zh": "比如说，我戒了一个月奶茶。",
+   "usage": "说完一个想法，马上补一个具体的例子。"},
+  {"no": 2, "cat": "补充", "text": "On top of that, the food there is great.", "zh": "而且，那儿的东西还特别好吃。",
+   "example": "On top of that, it's only ten minutes from my school.", "example_zh": "而且，离我学校只要十分钟。",
+   "usage": "已经给了一个理由，再加一个更有分量的。"},
+  {"no": 3, "cat": "转折", "text": "That said, I still think it was worth it.", "zh": "话虽这么说，我还是觉得挺值的。",
+   "example": "That said, I'd pick a different hotel next time.", "example_zh": "话虽这么说，下次我会换家酒店。",
+   "usage": "先说了一面，再往回拉一点，让话不那么绝对。"},
+  {"no": 4, "cat": "原因", "text": "The main reason is that I want to save some money.", "zh": "主要是因为我想攒点钱。",
+   "example": "The main reason is that the office is too far from home.", "example_zh": "主要是因为公司离家太远了。",
+   "usage": "被问到为什么时，先把最重要的原因摆出来。"},
+  {"no": 5, "cat": "总结", "text": "So basically, it was a pretty good day.", "zh": "总之，那天还挺不错的。",
+   "example": "So basically, we just stayed home and played games.", "example_zh": "总之，我们就待在家打游戏了。",
+   "usage": "讲了一堆细节之后，用一句话收尾。"},
+  {"no": 6, "cat": "换话题", "text": "Speaking of food, have you tried that new noodle place?", "zh": "说到吃的，你去过那家新开的面馆吗？",
+   "example": "Speaking of trips, where are you going this summer?", "example_zh": "说到旅行，你今年夏天去哪儿？",
+   "usage": "顺着对方刚提到的东西，自然地接到新话题。"}
+ ],
+ "topics": [
+  {"no": 1, "group": "A", "zh": "最近的生活", "en": "Life Lately",
+   "chunks": [
+    {"text": "have been pretty busy lately", "zh": "最近挺忙的"},
+    {"text": "catch up on sleep", "zh": "补觉"},
+    {"text": "try out a new hobby", "zh": "试试一个新爱好"},
+    {"text": "take it easy this weekend", "zh": "这周末放松一下"},
+    {"text": "keep myself busy", "zh": "让自己忙起来"},
+    {"text": "get into a routine", "zh": "养成固定的作息"}
+   ],
+   "patterns": [
+    {"text": "Nothing much, just the usual.", "zh": "没什么，还是老样子。"},
+    {"text": "I've been trying to cook more at home.", "zh": "我最近在尽量多在家做饭。"}
+   ],
+   "questions": [
+    {"text": "What have you been up to lately?", "zh": "你最近在忙什么？"},
+    {"text": "Anything fun planned for the weekend?", "zh": "周末有什么好玩的安排吗？"},
+    {"text": "How's school going?", "zh": "学校那边怎么样？"}
+   ]},
+  {"no": 2, "group": "A", "zh": "吃饭", "en": "Food and Eating",
+   "chunks": [
+    {"text": "grab a quick bite", "zh": "随便吃一口"},
+    {"text": "order takeout", "zh": "点外卖"},
+    {"text": "be craving something spicy", "zh": "特别想吃辣的"},
+    {"text": "eat out", "zh": "在外面吃"},
+    {"text": "skip breakfast", "zh": "不吃早饭"},
+    {"text": "split the bill", "zh": "分摊账单"}
+   ],
+   "patterns": [
+    {"text": "I'm not a picky eater, but I don't eat cilantro.", "zh": "我不挑食，但不吃香菜。"},
+    {"text": "We usually just order something and eat in the dorm.", "zh": "我们一般点个外卖在宿舍吃。"}
+   ],
+   "questions": [
+    {"text": "What did you have for lunch today?", "zh": "你今天午饭吃的什么？"},
+    {"text": "Do you cook, or do you mostly eat out?", "zh": "你自己做饭，还是主要在外面吃？"},
+    {"text": "What's a dish you could eat every day?", "zh": "有什么菜你能天天吃？"}
+   ]},
+  {"no": 3, "group": "A", "zh": "周末和休闲", "en": "Weekends and Free Time",
+   "chunks": [
+    {"text": "sleep in", "zh": "睡懒觉"},
+    {"text": "hang out with friends", "zh": "和朋友一起玩"},
+    {"text": "binge-watch a show", "zh": "一口气刷完一部剧"},
+    {"text": "go for a walk", "zh": "出去散散步"},
+    {"text": "stay in", "zh": "宅在家"},
+    {"text": "run some errands", "zh": "出门办点杂事"}
+   ],
+   "patterns": [
+    {"text": "I spent most of Saturday just lying around.", "zh": "周六我大部分时间都在躺着。"},
+    {"text": "If the weather's nice, we might go hiking.", "zh": "天气好的话，我们可能去爬山。"}
+   ],
+   "questions": [
+    {"text": "What did you do last weekend?", "zh": "你上周末干什么了？"},
+    {"text": "Are you more of a stay-at-home person or a go-out person?", "zh": "你更喜欢宅家还是出门？"},
+    {"text": "What does your perfect lazy day look like?", "zh": "你理想中的懒散一天是什么样的？"}
+   ]}
+ ]
+}

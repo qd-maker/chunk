@@ -1,0 +1,42 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 前端依赖和构建产物
+node_modules/
+static/
+web/dist/
+
+# 密钥和本机配置
+.env
+*.keystore
+*.jks
+
+# 数据（数据库、录音、素材库）
+data/
+data-demo/
+data-trial/
+server-data/
+
+# 作者私有文件（部署记录、试跑脚本）
+private/
+
+# 安卓包和日志
+chunk.apk
+*.apk
+*.aab
+*.log
+
+# 安卓壳：本机服务器地址、生成物、签名配置
+apk/server.config.json
+apk/android/keystore.properties
+apk/android/local.properties
+apk/android/.gradle/
+apk/android/build/
+apk/android/app/build/
+apk/android/app/src/main/assets/public/
+apk/android/app/src/main/assets/capacitor.config.json
+apk/android/app/src/main/assets/capacitor.plugins.json
+apk/android/capacitor-cordova-android-plugins/

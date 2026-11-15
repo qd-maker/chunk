@@ -1,0 +1,16 @@
+# 部署：docker compose up -d --build
+# 数据（数据库 chunk.db、录音、素材库 library.json）在 ./server-data，升级、重建容器都不会丢。
+# 素材库不打进镜像：首次启动前把 library.json 放进 ./server-data/（可以先用 examples/library.example.json）。
+services:
+  chunk:
+    build: .
+    image: chunk:latest
+    container_name: chunk
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      - DATA_DIR=/data
+    volumes:
+      - ./server-data:/data
+    ports:
+      - "127.0.0.1:8781:8781"   # 只对服务器本机开放；外网走反向代理或隧道（例如 your-server.example）

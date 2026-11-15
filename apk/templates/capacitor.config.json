@@ -1,0 +1,14 @@
+{
+  "appId": "com.heyqi.chunk",
+  "appName": "chunk",
+  "webDir": "www",
+  "backgroundColor": "#ECEEE8",
+  "server": {
+    "url": "https://your-server.example",
+    "errorPath": "error.html"
+  },
+  "android": {
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  }
+}

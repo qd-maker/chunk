@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>chunk</title>
+<style>
+  :root { --bg:#ECEEE8; --ink:#15171A; --ink2:#4E535A; --blue:#2740E8; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#111316; --ink:#ECEEE8; --ink2:#B4B9BF; --blue:#4D66FF; } }
+  * { box-sizing:border-box; margin:0 }
+  body { min-height:100dvh; background:var(--bg); color:var(--ink); font:16px/1.6 system-ui,"PingFang SC","Microsoft YaHei",sans-serif;
+         display:flex; flex-direction:column; justify-content:center; padding:24px; max-width:480px; margin:0 auto; gap:16px }
+  i { width:44px; height:30px; border-radius:9px; background:var(--blue); display:block }
+  h1 { font-size:40px; line-height:1.1; letter-spacing:-.03em }
+  p { color:var(--ink2) }
+  button { margin-top:8px; min-height:60px; border:0; border-radius:16px; background:var(--blue); color:#fff; font:700 18px system-ui,"PingFang SC",sans-serif }
+</style>
+</head>
+<body>
+  <i></i>
+  <h1>连不上服务</h1>
+  <p>chunk 的转写和判定都在服务器上，需要联网。检查一下手机网络，或者稍后再试。</p>
+  <button onclick="location.href='https://your-server.example'">重新连接</button>
+</body>
+</html>

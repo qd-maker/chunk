@@ -1,0 +1,14 @@
+node_modules/
+android/keystore.properties
+android/local.properties
+android/.gradle/
+android/build/
+android/app/build/
+*.keystore
+icon-preview.png
+build.log
+*.log
+# 本机服务器地址，和 configure.mjs 按 templates/ 生成的文件
+/server.config.json
+/capacitor.config.json
+/www/

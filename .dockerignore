@@ -1,0 +1,17 @@
+.venv/
+**/node_modules/
+**/__pycache__/
+.pytest_cache/
+.env
+data/
+data-demo/
+static/
+tests/
+scripts/
+*.bat
+private/
+apk/
+data-trial/
+server-data/
+*.apk
+*.log
